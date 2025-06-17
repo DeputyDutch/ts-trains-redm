@@ -26,7 +26,7 @@ namespace TS_Trains
         private void OnClientResourceStart(string resourceName)
         {
             if (GetCurrentResourceName() != resourceName) return;
-            Log.Info("Starting Trains script by Thunderstorm441");
+            Log.Info("Starting Trams script!");
             Trains.Init();
         }
 

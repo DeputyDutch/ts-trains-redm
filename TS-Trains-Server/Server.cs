@@ -15,7 +15,7 @@ namespace TS_Trains_Server
 		public Server()
 		{
 			_server = this;
-			Log.Info("Starting Trains script by Thunderstorm441");
+			Log.Info("Starting Trams script!");
 			Trains.Init();
 		}
 

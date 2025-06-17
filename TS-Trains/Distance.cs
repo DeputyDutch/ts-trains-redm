@@ -6,10 +6,10 @@ namespace OldWestRPClient.Utilities
 {
     static class Distance
     {
-        public static bool IsPlayerWithinDistance(Vector3 v, float dist) => Math.Abs((API.GetEntityCoords(API.PlayerPedId(), true, true) - v).Length()) < dist;
+        public static bool IsPlayerWithinDistance(Vector3 v, float dist) => Math.Abs((API.GetEntityCoords(API.PlayerPedId(), true) - v).Length()) < dist;
 
-        public static float DistanceToSquared(Vector3 v) => Math.Abs((API.GetEntityCoords(API.PlayerPedId(), true, true) - v).Length());
+        public static float DistanceToSquared(Vector3 v) => Math.Abs((API.GetEntityCoords(API.PlayerPedId(), true) - v).Length());
 
-        public static float EntityDistanceToSquared(int a, Vector3 v) => Math.Abs((API.GetEntityCoords(a, true, true) - v).Length());
+        public static float EntityDistanceToSquared(int a, Vector3 v) => Math.Abs((API.GetEntityCoords(a, true) - v).Length());
     }
 }

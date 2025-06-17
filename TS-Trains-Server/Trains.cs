@@ -9,8 +9,8 @@ namespace TS_Trains_Server
 {
     static class Trains
     {
-        private static int valTrain = 0;
-        private static int bigTrain = 0;
+        //private static int valTrain = 0;
+        //private static int bigTrain = 0;
         private static int tramTrain = 0;
         public static void Init()
         {
@@ -20,14 +20,14 @@ namespace TS_Trains_Server
 
         private static void SetTrainHandles([FromSource] Player p, int t1, int t2, int t3)
         {
-            valTrain = t1;
-            bigTrain = t2;
+            //valTrain = t1;
+            //bigTrain = t2;
             tramTrain = t3;
         }
 
         private static void ReqTrainHandles([FromSource] Player p)
         {
-            p.TriggerEvent("Trains.RequestCallback", valTrain, bigTrain, tramTrain);
+            p.TriggerEvent("Trains.RequestCallback", tramTrain); // , valTrain, bigTrain);
         }
     }
 }
