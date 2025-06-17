@@ -1,3 +1,6 @@
+# Edited by WDutch
+Gets rid of trains in case you don't need trains to spawn but leaves the tram in place so you can use that. I recommend using the original script but this is just something I forked together and updated slightly so it would compile nicely. Doesn't mean it won't have bugs or issues. NO SUPPORT OFFERED HERE!!!!!!!!
+
 # ts-trains-redm
 Adds the singleplayer trains &amp; tram to RedM.
 Originally for [OldWesternRP](https://oldwesternrp.com) & made standalone for any [RedM](https://redm.gg) server to use.
