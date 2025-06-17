@@ -334,7 +334,7 @@ namespace TS_Trains
             }
             catch (Exception e)
             {
-                Log.Error("Error in Train setup");
+                Log.Error("Error in Tram setup");
                 Log.Error(e.Message);
             }
 
